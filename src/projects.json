@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "projectName": "ToWatchIt",
+        "image": "https://raw.githubusercontent.com/thomasptharakan/ToWatchIt/main/images/HomeScreen.png",
+        "description": "A group project which used 2 api's to retreive data from 2 different sources and display them on a html page"
+    },
+    {
+        "id": 2,
+        "projectName": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/wmohammad83/teamProfileGenerator/main/assets/images/output.png",
+        "description": "A node js application which generates an html page from user input with regards to employees"
+    },
+    {
+        "id": 3,
+        "projectName": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/wmohammad83/weather-dashboard/main/assets/images/weatherDashboard.png",
+        "description": "A weather dashboard which retreives user searches about the weather from an api and displays it on the web page"
+    },
+    {
+        "id": 4,
+        "projectName": "Work Day Scheduler",
+        "image": "https://raw.githubusercontent.com/wmohammad83/work-day-scheduler/main/assets/images/scheduler.png",
+        "description": "The aim of this task is to create a day scheduler that will allow a user to save events for each hour of the day. This will all be achieved by dynamically updating the HTML and CSS using jQuery. Moment.js will also be used to set the current day and time."
+    }
+]
