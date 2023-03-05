@@ -9,3 +9,25 @@
 .hero h1 {
   font-size: 80px;
 }
+
+.icons {
+  display: flex;
+  font-size: 40px;
+  /* justify-content: center; */
+}
+.icons a {
+  color: black;
+  margin: 10px;
+}
+.icons a:hover {
+  color: #929aab;
+}
+
+#hero {
+  margin-top: 10%;
+}
+
+.secondary {
+  background-color: black !important;
+  justify-content: center;
+}
