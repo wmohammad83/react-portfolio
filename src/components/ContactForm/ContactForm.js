@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import "./ContactForm.css"
 
 function ContactForm() {
   return (
@@ -18,7 +19,7 @@ function ContactForm() {
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" rows={3} placeholder="Enter message" />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button className="sub-btn" type="submit">
         Submit
       </Button>
     </Form>

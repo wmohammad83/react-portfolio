@@ -1,11 +1,13 @@
 import React from "react";
+import Pic from "../../images/pic.png";
+import "./About.css";
 
 function About() {
   return (
-    <div className="container mt-3">
+    <div className="container mt-4">
       <h2>About</h2>
       <div className="row">
-        <div className="col-sm-12 col-md-8">
+        <div className="col-sm-12 col-md-12">
           <p>
             Hi I’m waseem an aspiring developer in the making, I started my
             career as a dispensing optician in 2007 where I developed an
@@ -26,7 +28,9 @@ function About() {
             is going to be working with JavaScript.
           </p>
         </div>
-        <div className="col-sm-12 col-md-4"></div>
+        {/* <div className="col-sm-12 col-md-4">
+          <img className="profilePic " src={Pic} alt="Profile Picture" />
+        </div> */}
       </div>
     </div>
   );

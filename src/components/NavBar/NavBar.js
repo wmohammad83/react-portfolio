@@ -12,12 +12,12 @@ function NavBar() {
     // =================================================================
     <Navbar id="navbar" expand="lg" sticky="top" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" className="nav">
           iMaa
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ml-auto">
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>

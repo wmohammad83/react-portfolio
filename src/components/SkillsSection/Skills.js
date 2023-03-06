@@ -5,9 +5,9 @@ function Skills() {
   return (
     <section>
       <div className="container">
-        <h4 class="text-center section-title text-uppercase skills-title">
+        <h2 class="section-title skills-title mt-4">
           My Skills
-        </h4>
+        </h2>
         <div className="row">
             <SkillsCard skill="html" logo ="fa-brands fa-html5" />
             <SkillsCard skill="css" logo ="fa-brands fa-css3-alt" />

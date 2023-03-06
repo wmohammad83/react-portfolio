@@ -1,13 +1,13 @@
 import React from "react";
-import Hero from "../components/HeroSection/Hero";
+import Header from "../components/Header/Header";
 import About from "../components/About/About";
-import Skills from "../components/SkillsSection/Skills"
-import Footer from "../components/Footer/Footer"
+import Skills from "../components/SkillsSection/Skills";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
   return (
     <div>
-      <Hero />
+      <Header />
       <About />
       <Skills />
       <Footer />

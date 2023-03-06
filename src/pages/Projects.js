@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div>
       <div className="container">
-        <h1>Projects</h1>
+        <h2 className="my-4">Projects</h2>
         <div className="row">
           <div className="col">
             {projects.map((project) => {
@@ -18,6 +18,8 @@ function Projects() {
                   name={project.projectName}
                   image={project.image}
                   description={project.description}
+                  livePage={project.livePage}
+                  gitHub={project.gitHub}
                 />
               );
             })}
